@@ -1,0 +1,36 @@
+.form {
+    background-color: #703b09;
+    text-align: center;
+    border: 3px solid black;
+    padding: 10px 20px;
+}
+.form-item {
+    margin-bottom: 10px;
+}
+.form-item label {
+    color: white;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.form-item input {
+    border: 2px solid black;
+    width: 30%;
+    padding: 5px 10px;
+}
+.form h3 {
+    color: white;
+}
+.photoPreview {
+    width: 100px;
+    margin-bottom: 20px;
+}
+.form-btn {
+    background-color: white;
+    border: 2px solid black;
+    font-weight: bold;
+    cursor: pointer;
+    color: black;
+    margin-right: 10px;
+    padding: 5px 15px;
+}

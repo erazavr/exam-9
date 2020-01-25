@@ -64,6 +64,7 @@ class EditContact extends Component {
 const mapStateToProps = state => ({
     contacts: state.contacts.contacts,
     loading: state.contacts.loading,
+    error: state.contacts.error
 });
 const mapDispatchToProps = dispatch => ({
     getContacts: () => dispatch(getContacts()),

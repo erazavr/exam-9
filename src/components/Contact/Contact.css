@@ -1,0 +1,16 @@
+.Contact {
+    display: flex;
+    align-items: center;
+    border: 3px solid black;
+    margin-bottom: 20px;
+    width: 70%;
+    padding: 10px 10px;
+    background-color: #703b09;
+    color: white;
+
+}
+.Contact img {
+    border: 2px solid black;
+    width: 100px;
+    margin-right: 20%;
+}

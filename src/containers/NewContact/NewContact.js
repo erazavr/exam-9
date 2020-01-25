@@ -49,6 +49,7 @@ class NewContact extends Component {
 }
 const mapStateToProps = state => ({
     loading: state.contacts.loading,
+    error: state.contacts.error
 });
 const mapDispatchToProps = dispatch => ({
    newContactPost: contact => dispatch(newContactPost(contact))
